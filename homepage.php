@@ -22,7 +22,7 @@ get_header();
 	<div class="contact-section" style="display: flex; flex-wrap: wrap; margin-top: 40px;">
 		<!-- Contact Form -->
 		<div class="contact-form" style="flex: 1; min-width: 300px; margin-right: 40px;">
-			<h2 style="color: #f60; border-bottom: 2px solid #333; padding-bottom: 5px;">CONTACT US</h2>
+			<h2 style="color: #f60; border-bottom: 5px solid #333; padding-bottom: 5px;">CONTACT US</h2>
 			<form action="#" method="post" style="margin-top: 20px;">
 				<input type="text" name="name" placeholder="Name *" style="width: 100%; padding: 10px; margin-bottom: 10px;" required>
 				<div style="display: flex; gap: 10px; margin-bottom: 10px;">
@@ -36,7 +36,7 @@ get_header();
 
 		<!-- Contact Info -->
 		<div class="contact-info" style="flex: 1; min-width: 300px;">
-			<h2 style="color: #f60; border-bottom: 2px solid #333; padding-bottom: 5px;">REACH US</h2>
+			<h2 style="color: #f60; border-bottom: 5px solid #333; padding-bottom: 5px;">REACH US</h2>
 			<div style="margin-top: 20px; color: #333;">
 				<p><strong>Coalition Skills Test</strong><br>
 				535 La Plata Street<br>
@@ -46,13 +46,23 @@ get_header();
 				Fax: 385.154.35.66.78</p>
 
 				<!-- Social Media Icons -->
-				<div style="margin-top: 20px;">
-					<!-- Replace # with actual links or FontAwesome icons -->
-					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/facebook.png" alt="Facebook" style="margin-right: 10px;"></a>
-					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/twitter.png" alt="Twitter" style="margin-right: 10px;"></a>
-					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/linkedin.png" alt="LinkedIn" style="margin-right: 10px;"></a>
-					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/pinterest.png" alt="Pinterest"></a>
-				</div>
+				<div style="margin-top: 20px; display: flex; align-items: center;">
+   
+    <div style="display: flex; align-items: space-between;">
+        <a href="#" style="margin-right: 5px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/facebook.png" alt="Facebook" style="width: 25px; height: 25px; border-radius: 10%; background-color: #ccc; display: flex; justify-content: center; align-items: center;">
+        </a>
+        <a href="#" style="margin-right: 5px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/twitter.png" alt="Twitter" style="width: 25px; height: 25px; border-radius: 10%; background-color: #ccc; display: flex; justify-content: center; align-items: center;">
+        </a>
+        <a href="#" style="margin-right: 5px;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/linkedin.png" alt="LinkedIn" style="width: 25px; height: 25px; border-radius: 10%; background-color: #ccc; display: flex; justify-content: center; align-items: center;">
+        </a>
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/pinterest.png" alt="Pinterest" style="width: 25px; height: 25px; border-radius: 10%; background-color: #ccc; display: flex; justify-content: center; align-items: center;">
+        </a>
+    </div>
+</div>
 			</div>
 		</div>
 	</div>
